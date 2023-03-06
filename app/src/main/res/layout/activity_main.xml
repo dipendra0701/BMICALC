@@ -43,7 +43,8 @@
 
     <Button
         android:id="@+id/btnCal"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:backgroundTint="@color/black"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginLeft="50dp"
@@ -54,23 +55,30 @@
         android:textSize="30sp" />
 
 
-    <TextView
+    <Button
         android:id="@+id/txtResult"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="30dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
         android:text="@string/txt_result"
+      android:backgroundTint="@color/purple_700"
+
         android:textSize="35sp"
         android:textStyle="bold" />
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/txt_Msg"
         android:textStyle="bold"
-        android:textSize="35sp"
+        android:layout_marginLeft="10dp"
+        android:backgroundTint="@color/purple_700"
+        android:layout_marginRight="10dp"
+        android:textSize="30sp"
         android:layout_gravity="center"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="35dp"
         android:id="@+id/txtMsg"/>
 
 
