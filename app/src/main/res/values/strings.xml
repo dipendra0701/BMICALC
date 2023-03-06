@@ -7,6 +7,7 @@
     <string name="strUnderweight">You are Underweight</string>
     <string name="strHealthy">You are Healthy</string>
     <string name="strBMI">Your BMI is</string>
+    <string name="strinvalid">please fill all the Details!!</string>
 
 
 <string name="app_name">BMICALCULATOR</string>

@@ -68,7 +68,7 @@
         android:layout_height="wrap_content"
         android:text="@string/txt_Msg"
         android:textStyle="bold"
-        android:textSize="50sp"
+        android:textSize="35sp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:id="@+id/txtMsg"/>
