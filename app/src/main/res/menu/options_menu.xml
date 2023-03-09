@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item1"
+        android:title="About Developer"
 
+        />
     <item
-        android:title="About App"
-        android:id="@+id/item_1"/>
-    <item
+        android:id="@+id/item2"
         android:title="BMI Chart"
-        android:id="@+id/item_2"/>
+
+        />
     <item
+        android:id="@+id/item3"
         android:title="Exit"
-        android:id="@+id/item_3"/>
+
+        />
 </menu>
