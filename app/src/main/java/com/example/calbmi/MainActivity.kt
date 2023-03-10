@@ -15,9 +15,6 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     private lateinit var binding: ActivityMainBinding
     private var isClear: Boolean = false
 
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
@@ -30,6 +27,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         }
     }
 
+
+
             override fun onCreateOptionsMenu(menu: Menu?): Boolean {
         menuInflater.inflate(R.menu.options_menu,menu)
         MenuCompat.setGroupDividerEnabled(menu!!, true);//add horizontal divider
@@ -37,24 +36,26 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
         return super.onCreateOptionsMenu(menu)
     }
 
+
+
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when(item.itemId){
-//            R.id.item1 ->{
-//
-//                val intent = Intent(this,Aboutdeveloper::class.java)
-//
-//                startActivity(intent)
-////                Toast.makeText(this,"About BMI", Toast.LENGTH_SHORT).show()
-//                return true
-//            }
-//            R.id.item2 ->{
-//
-//                val intent = Intent(this, bmi_chart::class.java)
-//
-//                //Toast.makeText(this," BMI Chart", Toast.LENGTH_SHORT).show()
-//                startActivity(intent)
-//                return true
-//            }
+            R.id.item1 ->{
+
+                val intent = Intent(this,about_aap::class.java)
+
+                startActivity(intent)
+//              Toast.makeText(this,"About BMI", Toast.LENGTH_SHORT).show()
+                return true
+            }
+            R.id.item2 ->{
+
+                val intent = Intent(this, bmi_chat::class.java)
+
+                //Toast.makeText(this," BMI Chart", Toast.LENGTH_SHORT).show()
+                startActivity(intent)
+                return true
+            }
             R.id.item3 ->{
                 finish()
                 System.exit(0)
@@ -148,6 +149,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             }
 
         }
+
     }
 
     override fun onResume() {
